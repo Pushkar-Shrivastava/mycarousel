@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+.item {
+    height: 10rem;
+    background: #4DC7A0;
+    padding: 1rem;
+}
+.owl-dots{
+    visibility: hidden !important;
+}
