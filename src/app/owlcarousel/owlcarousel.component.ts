@@ -17,6 +17,7 @@ export class OwlcarouselComponent implements OnInit {
     loop:true,
     margin:10,
     nav:true,
+    navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
     responsive:{
         0:{
             items:1
@@ -29,6 +30,7 @@ export class OwlcarouselComponent implements OnInit {
         }
     }
 })
+
   }
 
 }
