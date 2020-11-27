@@ -2,6 +2,7 @@ bootstrap carousel:-
 
 1) in terminal :- $ npm install --save jquery bootstrap
 2) in angular.json file under build tree
+```
      "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
@@ -10,6 +11,7 @@ bootstrap carousel:-
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
             ]
+ ```
 3) in terminal :- $ ng g c mycarousel
 4) copied corausel from "https://getbootstrap.com/docs/4.5/components/carousel/#with-captions" and put in mycarousel.component.html
 5) added selector for mycarousel in app.component.html
@@ -18,7 +20,9 @@ bootstrap carousel:-
 owl carousel:-
 
 1) in terminal:- $ npm install --save owl.carousel
-2) "styles": [
+2)
+```
+"styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/owl.carousel/dist/assets/owl.carousel.min.css",
               "./node_modules/owl.carousel/dist/assets/owl.theme.default.min.css",
@@ -29,6 +33,7 @@ owl carousel:-
               "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
               "node_modules/owl.carousel/dist/owl.carousel.min.js"
             ]
+ ```           
 3) in terminal :- ng g c owlcarousel
 4) copied html from https://owlcarousel2.github.io/OwlCarousel2/demos/stagepadding.html
 5) wrote jquery(setup code) code in owlcarousel.component.js
