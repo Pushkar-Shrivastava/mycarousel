@@ -11,7 +11,7 @@ bootstrap carousel:-
               "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
             ]
 3) in terminal :- $ ng g c mycarousel
-4) copied corausel from "https://getbootstrap.com/docs/4.5/components/carousel/" and put in mycarousel.component.html
+4) copied corausel from "https://getbootstrap.com/docs/4.5/components/carousel/#with-captions" and put in mycarousel.component.html
 5) added selector for mycarousel in app.component.html
 6) images are in assets folder.
 
